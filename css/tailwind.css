@@ -8,7 +8,7 @@
 @theme {
   /* Font families */
   --font-sans:
-    var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    var(--font-space-asta), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
   /* Colors */
@@ -49,7 +49,7 @@
   --z-80: 80;
 
   --color-background: #fcfc81;
-  --color-accent: #f43605; 
+  --color-accent: #f43605;
   --color-logo: #47c072;
 }
 

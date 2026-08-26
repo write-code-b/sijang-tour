@@ -5,7 +5,7 @@ const siteMetadata = {
   headerTitle: '시장투어',
   description: '시장투어 웹진',
   language: 'ko',
-  theme: 'system', // system, dark or light
+  theme: 'light', // system, dark or light
   siteUrl: 'https://write-code-b.github.io/sijang-tour/',
   siteRepo: 'https://github.com/write-code-b/sijang-tour',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
@@ -24,7 +24,7 @@ const siteMetadata = {
   //bluesky: 'https://bsky.app/',
   locale: 'ko',
   // set to true if you want a navbar fixed to the top
-  stickyNav: true,
+  stickyNav: false,
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
