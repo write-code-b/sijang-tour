@@ -6452,6 +6452,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"framer-motion@npm:^13.1.1":
+  version: 13.1.1
+  resolution: "framer-motion@npm:13.1.1"
+  dependencies:
+    motion-dom: ^13.1.1
+    motion-utils: ^13.0.0
+    tslib: ^2.4.0
+  peerDependencies:
+    react: ^18.0.0 || ^19.0.0
+    react-dom: ^18.0.0 || ^19.0.0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 080615d1bac7c17103c93dfc11875035f064387aaf803ce07163d914f5ff9b403d74259c0383a49aabaaa19dec2a6ecdea4959c1c9c313808f8e3d1f47fc1e10
+  languageName: node
+  linkType: hard
+
 "fs-minipass@npm:^3.0.0":
   version: 3.0.3
   resolution: "fs-minipass@npm:3.0.3"
@@ -9148,6 +9167,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"motion-dom@npm:^13.1.1":
+  version: 13.1.1
+  resolution: "motion-dom@npm:13.1.1"
+  dependencies:
+    motion-utils: ^13.0.0
+  checksum: d4e6ef95eeadeabe9294d461c014928a68c6e584962fa8c995583e37a24d81886a65c9cb6a0329e28649c3abbb1d423898a9bc8f6029d1efbf39e4be45c16b7f
+  languageName: node
+  linkType: hard
+
+"motion-utils@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "motion-utils@npm:13.0.0"
+  checksum: 0cb30b6d2b50b40fa8430a7c8fa3e75f93167135d48fa78a25deb3007810ec278176e51f3c984e99b9f30d81da7c27e2c07cfe4a028fa989118eb0a87f83bfdb
+  languageName: node
+  linkType: hard
+
+"motion@npm:^13.1.1":
+  version: 13.1.1
+  resolution: "motion@npm:13.1.1"
+  dependencies:
+    framer-motion: ^13.1.1
+    tslib: ^2.4.0
+  peerDependencies:
+    react: ^18.0.0 || ^19.0.0
+    react-dom: ^18.0.0 || ^19.0.0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 69c3d0bdcf18468c9069b4c3c04f7ed30e95cc6d8260983cdee771d20b2f94215cb0ab09d5d299808cbb1c29bb4ec7c15ba8df3006cc2022632ac2f4a716a543
+  languageName: node
+  linkType: hard
+
 "mrmime@npm:^2.0.0":
   version: 2.0.1
   resolution: "mrmime@npm:2.0.1"
@@ -11605,6 +11658,7 @@ __metadata:
     husky: ^9.1.7
     image-size: 2.0.2
     lint-staged: ^16.2.7
+    motion: ^13.1.1
     next: 15.5.12
     next-contentlayer2: 0.5.8
     next-themes: ^0.4.6
