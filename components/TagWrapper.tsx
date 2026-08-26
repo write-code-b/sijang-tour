@@ -13,11 +13,11 @@ const TagWrapper = () => {
     <>
       <div className="hidden h-full max-h-screen flex-wrap rounded-sm sm:flex">
         {/* {pathname.startsWith('/blog') ? (
-          <h3 className="text-primary-500 font-bold uppercase">All Posts</h3>
+          <h3 className="text-(--color-accent) font-bold uppercase">All Posts</h3>
         ) : (
           <Link
             href={`/blog`}
-            className="hover:text-primary-500 dark:hover:text-primary-500 font-bold text-gray-700 uppercase dark:text-gray-300"
+            className="hover:text-(--color-accent) dark:hover:text-(--color-accent) font-bold text-gray-700 uppercase dark:text-gray-300"
           >
             글
           </Link>
