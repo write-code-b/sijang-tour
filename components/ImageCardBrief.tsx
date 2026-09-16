@@ -23,7 +23,7 @@ const ImageCardBrief = ({ posts, count }) => {
             <li key={slug} className="w-xs">
               <Link href={`/blog/${slug}`}>
                 <article>
-                  <div className="relative h-80">
+                  <div className="relative h-80 bg-white">
                     {images && (
                       <>
                         <Image src={images} fill alt="" className="object-cover" />
